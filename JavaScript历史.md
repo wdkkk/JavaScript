@@ -1,0 +1,16 @@
+JavaScript的作者是当时就职与Netscape公司的Brendan Eich，最早名为Livescript，在Livescript发布之际，为了蹭一波Java的热度临时将名字改为JavaScript。JavaScript1.0的发布取得了巨大成功，此时微软也在其IE浏览器中加入了JScript的JavaScript实现，此时市面上存在了三个不同的JavaScript实现，因此JavaScript的标准化问题被提上了日程。
+随后，以JavaScript1.1为蓝本的建议呗提交给ECMA组织，他们制定了名为ECMAScript的新脚本语音标准，这也是现在我们经常说的ES5、ES6中的'ES'来源.从此，浏览器开发商就开始致力于将ECMAScript作为各自JavaScript实现的基础。
+我们平时所说的JavaScript通常和ECMAScript是一个东西，但事实上，JavaScript的含义被ECMAScript定义的多得多，完整的JavaScript应该包含三部分：核心(ECMAScript)、文档对象模型(DOM)、浏览器对象模型(BOM)。
+
+###DOM
+DOM是一个针对XML但经过扩展用于HTML的API，它把整个页面映射为一个多层级的节点结构。
+###BOM
+BOM是一个用于访问和操作浏览器窗口的浏览器对象模型
+
+总的来说，JavaScript是一种为了与网页交互设计的语言，它包含了三个部分：
+
+ECMAScript，由ECMA-262定义，它包含了语言的核心功能
+
+DOM，提供操作网页内容的方法和接口
+
+BOM，提供了与浏览器交互的接口
